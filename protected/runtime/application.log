@@ -1,0 +1,8 @@
+2015/02/08 19:15:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "varmit".' in H:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 H:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('varmit')
+#1 H:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 H:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/varmit
+---
